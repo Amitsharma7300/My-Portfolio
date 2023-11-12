@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio amit</title>
+    <script src="https://kit.fontawesome.com/655c589984.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="k.png" alt="">
+
+        <ul class="navBar" id="nav">
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#skills"> Skills</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <button><a href="#contact"> Contact</a></button>
+        </ul>
+
+        <div id="btn"><i class="fa-solid fa-bars" id="icon"></i></div>
+    </header>
+    <main>
+        <div class="image-box">
+        </div>
+        <p>HI</p>
+        <h1>I'm Amit Sharma</h1>
+        <div class="des">
+            <p class="description">I'm frontend developer proficient in HTML, CSS, JavaScript, Bootstrap, and React.
+                I am learning full stack development. Creating captivating websites with a focus on user experience.</p>
+        </div>
+    </main>
+
+    <div class="skillsSection" id="skills">
+        <div class="container">
+            <div class="allSkills">
+                <h2>MY SKILLS</h2>
+                <p>I have following Skills!</p>
+                <div class="details">
+                    <span>HTML</span><span>90%</span>
+                </div>
+                <div class="bar">
+                    <div id="html"></div>
+                </div>
+                <div class="details">
+                    <span>CSS</span><span>70%</span>
+                </div>
+                <div class="bar">
+                    <div id="css"></div>
+                </div>
+                <div class="details">
+                    <span>JavaScript</span><span>65%</span>
+                </div>
+                <div class="bar">
+                    <div id="js"></div>
+                </div>
+                <div class="details">
+                    <span>SQL</span><span>65%</span>
+                </div>
+                <div class="bar">
+                    <div id="react"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="projectSection" id="projects">
+    <h2>PROJECTS</h2>
+    <div class="procards">
+        <div class="procard">
+            <div class="img"><img src="#.png" alt=""></div>
+            <h3>CopyWriting</h3>
+            <p>CopyWriting Agency Website</p>
+            <button> <a href="https://github.com/Amitsharma7300">Visit Link</a></button>
+        </div>
+        <div class="procard">
+            <div class="img"><img src=" #.png?auto=format&fit=crop" alt=""></div>
+            <h3>######</h3>
+            <p>@@@@@@@</p>
+           
+            <button> <a href="">Visit Link</a></button>
+        </div><div class="procard">
+            <div class="img"><img src=".jpg" alt=""></div>
+            <h3>&&&&&</h3>
+            <p>44556</p>
+
+            <button> <a href="">Visit Link</a></button>
+        </div>
+    
+
+    </div>
+</div>
+
+<footer class="footer" id="contact">
+    <div class="footer-content">
+      <h3 style="background-color: #127E78;">Amit sharma</h3>
+      <p style="background-color: #127E78;">Contact With me through the following Links</p>
+      <div class="social-links" >
+        <a href="https://x.com/AmitSharma_09?t=mQsSnOw5JWr2Rq1ocvQRcg&s=09" class="social-link">Twitter</a>
+        <a href="https://instagram.com/_amitsharma73?igshid=bXl5NG5zM2hoeTAz" class="social-link">Instagram</a>
+        <a href="https://github.com/Amitsharma7300" class="social-link">Github</a>
+      </div>
+      <p  style="background-color: #127E78;">Made with ❤  By AMIT SHARMA</p>
+    </div>
+  </footer>
+  
+    <script>
+        var btn = document.getElementById('btn')
+        btn.addEventListener('click', function () {
+
+            let nav = document.getElementById('nav')
+            // console.log(ul)
+            nav.classList.toggle("hide");
+            var icon = document.getElementById('icon')
+            if (icon.classList.contains('fa-bars')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+
+                                 <!-- <div class="container">
