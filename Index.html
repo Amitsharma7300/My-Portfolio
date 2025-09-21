@@ -12,26 +12,50 @@
 
 <body>
     <header>
-        <h1>Techmate</h1>
+        <h1>Portfolio</h1>
 
         <ul class="navBar" id="nav">
             <li><a href="#home"> Home</a></li>
             <li><a href="#skills"> Skills</a></li>
             <li><a href="#projects"> Projects</a></li>
+          <li><a href="#blogs"> Blogs</a></li>
+            <li><a href="#certifications"> Certification</a></li>
             <button><a href="#contact"> Contact</a></button>
         </ul>
 
         <div id="btn"><i class="fa-solid fa-bars" id="icon"></i></div>
     </header>
     <main>
-        <div class="image-box">
-        </div>
-        <p>HI</p>
-        <h1>I'm Amit Sharma</h1>
-        <div class="des">
-            <p class="description">I'm full stack developer proficient in HTML, CSS, JavaScript, tailwindcss,React.js, Express.js and Node.js.
-                I am learning generative AI using python, langchain,langgraph focused on building intelligent systems powered by Generative AI. Creating captivating websites with a focus on user experience.</p>
-        </div>
+        <section id="home" class="homeSection">
+            <div class="main-card">
+                <div class="profile-bg">
+                    <div class="image-box">
+                        <img src="profile.png" alt="Amit Sharma" class="profile-img">
+                    </div>
+                </div>
+                <p class="greeting">Hi 👋</p>
+                <h1 class="main-title">I'm <span class="highlight">Amit Sharma</span></h1>
+                <h2 class="subtitle typewriter">Full Stack Developer & AI Enthusiast</h2>
+                <hr class="home-divider">
+                <div class="des">
+                    <p class="description">
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Generative AI</span>
+                        <span class="tag">Python</span>
+                        <br><br>
+                        I design and build modern, responsive web applications using <b>React.js</b>, <b>Node.js</b>, <b>Express.js</b>, and <b>MongoDB</b>.<br>
+                        Currently exploring the world of Generative AI with <b>Python</b>, <b>Langchain</b>, and <b>Langgraph</b>.<br>
+                        <br>
+                        <span class="quote">"Turning ideas into reality through code and creativity."</span>
+                    </p>
+                </div>
+                <div class="home-links">
+                    <a href="https://github.com/Amitsharma7300" class="home-btn"><i class="fas fa-folder-open"></i> View Projects</a>
+                    <a href="AmitSharma_GenerativeAI_Resume.pdf" class="home-btn" download><i class="fas fa-file-download"></i> Download Resume</a>
+                    <a href="#contact" class="home-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div class="skillsSection" id="skills">
@@ -63,66 +87,136 @@
                 <div class="bar">
                     <div id="react"></div>
                 </div>
+                <!-- Added Python, Langchain, Langgraph -->
                 <div class="details">
                     <span>Python</span><span>90%</span>
                 </div>
                 <div class="bar">
-                    <div id="html"></div>
-                    <div class="details">
-                    <span>Langchain</span><span>90%</span>
+                    <div id="python"></div>
+                </div>
+                <div class="details">
+                    <span>Langchain</span><span>70%</span>
                 </div>
                 <div class="bar">
-                    <div id="html"></div>
+                    <div id="langchain"></div>
                 </div>
-                    <div class="details">
-                    <span>Langgraph</span><span>90%</span>
+                <div class="details">
+                    <span>Langgraph</span><span>70%</span>
                 </div>
                 <div class="bar">
-                    <div id="html"></div>
+                    <div id="langgraph"></div>
                 </div>
             </div>
         </div>
     </div>
-<div class="projectSection" id="projects">
-    <h2>PROJECTS</h2>
-    <div class="procards">
-        <div class="procard">
-            <div class="img"><img src=".png" alt=""></div>
-            <h3>CopyWriting</h3>
-            <p>CopyWriting Agency Website</p>
-            <button> <a href="https://github.com/Amitsharma7300">Visit Link</a></button>
+    <div class="projectSection" id="projects">
+        <h2>PROJECTS</h2>
+        <div class="procards">
+            <div class="procard">
+                <div class="img"><img src="wastetoplate.png" alt=""></div>
+                <h3>wastetoplateFood-redistribution</h3>
+                <p>food redistribution website</p>
+                <button> <a href="https://wastetoplatefooddonation.vercel.app/">Visit Link</a></button>
+            </div>
+            <div class="procard">
+                <div class="img"><img src="p.jpg"?auto=format&fit=crop" alt=""></div>
+                <h3>Ai career copilot</h3>
+                <p>Personalized career roadmap generator using LangChain + LangGraph.</p>
+
+                <button> <a href="https://github.com/Amitsharma7300/.git">Visit Link</a></button>
+            </div>
+            <div class="procard">
+                <div class="img"><img src="chatbot.png" alt=""></div>
+                <h3>Chatbot</h3>
+                <p>Chatbot using langchain and langgraph</p>
+
+                <button> <a href="https://github.com/Amitsharma7300/chatbot-using-langgraph.git">Visit Link</a></button>
+            </div>
+
+
         </div>
-        <div class="procard">
-            <div class="img"><img src="puzzle.jpg"?auto=format&fit=crop" alt=""></div>
-            <h3>Puzzle</h3>
-            <p>Sliding Puzzle</p>
-           
-            <button> <a href="https://github.com/Amitsharma7300/Sliding-puzzle.git">Visit Link</a></button>
-        </div><div class="procard">
-            <div class="img"><img src=".jpg" alt=""></div>
-            <h3>&&&&&</h3>
-            <p>44556</p>
+    </div>
 
-            <button> <a href="">Visit Link</a></button>
+    <section class="certSection" id="certifications">
+        <div class="cert-card">
+            <h2><i class="fas fa-certificate" style="color:#ffd700;"></i> Certifications</h2>
+            <p class="cert-intro">
+                Here are some of my professional certifications and achievements in web development and AI:
+            </p>
+            <div class="cert-list">
+                <div class="cert-item">
+                   <i class="fas fa-graduation-cap cert-icon"></i>
+                    <div>
+                        <strong>Full Stack Web Development</strong><br>
+                        <span>Apna College , jan 2025</span>
+                        <p>Comprehensive training in frontend and backend technologies including React, Node.js, and MongoDB.</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fab fa-python cert-icon"></i>
+                    <div>
+                        <strong>Python for Everybody</strong><br>
+                        <span>coursera, 2025</span>
+                        <p>Mastered Python fundamentals, data structures, and web data handling.</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-robot cert-icon"></i>
+                    <div>
+                        <strong>Generative AI Fundamentals</strong><br>
+                        <span>campusX, 2025</span>
+                        <p>Learned the basics of generative AI, prompt engineering, and building AI-powered apps.</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-brain cert-icon"></i>
+                    <div>
+                        <strong>LangChain Bootcamp</strong><br>
+                        <span>LangChain, 2025</span>
+                        <p>Hands-on experience with building LLM-powered applications using LangChain and LangGraph.</p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="cert-note">
+                <i class="fas fa-info-circle"></i>
+                <span>More certifications coming soon as I continue learning and growing!</span>
+            </div>
         </div>
-    
+    </section>
 
-    </div>
-</div>
+   
 
-<footer class="footer" id="contact">
-    <div class="footer-content">
-      <h3 style="background-color: #127E78;">Amit sharma</h3>
-   <p style="background-color: #127E78;"><marquee>Contact With me through the following Links</marquee></p>
-      <div class="social-links" >
-        <a href="https://x.com/AmitSharma_09?t=mQsSnOw5JWr2Rq1ocvQRcg&s=09" class="social-link">Twitter</a>
-        <a href="https://instagram.com/_amitsharma73?igshid=bXl5NG5zM2hoeTAz" class="social-link">Instagram</a>
-        <a href="https://github.com/Amitsharma7300" class="social-link">Github</a>
-      </div>
-      <p  style="background-color: #127E78;">Made with ❤  By AMIT SHARMA</p>
-    </div>
-  </footer>
-  
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <h3>Amit Sharma</h3>
+            <p>Contact me through the following links:</p>
+            <div class="social-links">
+                <a href="https://x.com/AmitSharma_09?t=mQsSnOw5JWr2Rq1ocvQRcg&s=09" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://instagram.com/_amitsharma73?igshid=bXl5NG5zM2hoeTAz" class="social-link" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://github.com/Amitsharma7300" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i> Github
+                </a>
+            </div>
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:sharmaamit9627172414@gmail.com">sharmaamit9627172414@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Delhi, India</p>
+            </div>
+            <form class="contact-form" action="mailto:amitsharma7300@gmail.com" method="POST" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+            <p class="footer-credit">Made with <span style="color:#ffd700;">&#10084;</span> by AMIT SHARMA</p>
+        </div>
+    </footer>
+
     <script>
         var btn = document.getElementById('btn')
         btn.addEventListener('click', function () {
@@ -139,10 +233,38 @@
                 icon.classList.add('fa-bars');
             }
         })
+
+        // Only show the selected section
+        function showSection(id) {
+            const sectionIds = [
+                "home",
+                "skills",
+                "projects",
+                "Blogs",
+                "services", 
+                "certifications"
+            ];
+            sectionIds.forEach(function(secId) {
+                let section = document.getElementById(secId);
+                if (section) {
+                    section.style.display = (secId === id) ? "block" : "none";
+                }
+            });
+            // Footer (contact)
+            if (id === "contact") {
+                document.querySelector("footer").style.display = "block";
+                sectionIds.forEach(function(secId) {
+                    let section = document.getElementById(secId);
+                    if (section) section.style.display = "none";
+                });
+            } else {
+                document.querySelector("footer").style.display = "none";
+            }
+        }
     </script>
 </body>
 
 </html>
 
 
-                                 <!-- <div class="container">
+<!-- <div class="container"> -->
